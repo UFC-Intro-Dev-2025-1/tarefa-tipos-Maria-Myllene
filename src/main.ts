@@ -9,10 +9,14 @@ let arCondicionado: string = "frio";
 console.log(`O ar-condicionado do laboratório é ${arCondicionado}.`);
 
 let entradasLab;
-console.log(entradasLab); // Isso se refere as entradas laterais do laboratório, entre as portas, do lado contrário as janelas que, para mim, não fazem sentido algum
+/* Isso se refere as entradas laterais do laboratório, entre as portas, 
+do lado contrário as janelas que, para mim, não fazem sentido algum. 
+Logo, o sentido delas é... */
+console.log(entradasLab);
 
 let tickets: boolean = false;
-console.log(`Os tickets de acompanhamento da Lana são em vermelho, amarelo e azul.\n ${tickets}`);
+console.log(`Os tickets de acompanhamento da Lana são em vermelho, 
+amarelo e azul.\n ${tickets}`);
 
 type poteDeMarmita = {
     cor: string;
