@@ -26,5 +26,7 @@ let poteDeMarmita = {
     reparticoesInternas: 2,
     talheres: true,
 };
-console.log(`O pote de marmita da Myllene é ${poteDeMarmita.cor}, possui um formato ${poteDeMarmita.formato},\ntem ${poteDeMarmita.reparticoesInternas} repartições internas e possui talheres (${poteDeMarmita.talheres}).`);
+console.log(`O pote de marmita da Myllene é ${poteDeMarmita.cor}, 
+possui um formato ${poteDeMarmita.formato},\ntem ${poteDeMarmita.reparticoesInternas} 
+repartições internas e possui talheres (${poteDeMarmita.talheres}).`);
 
